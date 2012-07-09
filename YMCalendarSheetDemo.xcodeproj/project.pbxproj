@@ -15,6 +15,9 @@
 		2F9393B015AB477100C062C8 /* YMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9393AF15AB477100C062C8 /* YMAppDelegate.m */; };
 		2F9393B315AB477100C062C8 /* YMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9393B215AB477100C062C8 /* YMViewController.m */; };
 		2F9393B615AB477100C062C8 /* YMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9393B415AB477100C062C8 /* YMViewController.xib */; };
+		2F9393C015AB47D200C062C8 /* YMCalendarSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9393BE15AB47D200C062C8 /* YMCalendarSheet.m */; };
+		2F9393C115AB47D200C062C8 /* YMCalendarSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9393BF15AB47D200C062C8 /* YMCalendarSheet.xib */; };
+		2F9393C415AB48B800C062C8 /* UIView+NibLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9393C315AB48B800C062C8 /* UIView+NibLoading.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,20 @@
 		2F93939F15AB477100C062C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2F9393A115AB477100C062C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2F9393A315AB477100C062C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2F9393A715AB477100C062C8 /* YMCalendarSheetDemo-Info.plist */ = {isa = PBXFileReference; path = "YMCalendarSheetDemo-Info.plist"; sourceTree = "<group>"; };
+		2F9393A715AB477100C062C8 /* YMCalendarSheetDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YMCalendarSheetDemo-Info.plist"; sourceTree = "<group>"; };
 		2F9393A915AB477100C062C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2F9393AB15AB477100C062C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2F9393AD15AB477100C062C8 /* YMCalendarSheetDemo-Prefix.pch */ = {isa = PBXFileReference; path = "YMCalendarSheetDemo-Prefix.pch"; sourceTree = "<group>"; };
-		2F9393AE15AB477100C062C8 /* YMAppDelegate.h */ = {isa = PBXFileReference; path = YMAppDelegate.h; sourceTree = "<group>"; };
+		2F9393AD15AB477100C062C8 /* YMCalendarSheetDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YMCalendarSheetDemo-Prefix.pch"; sourceTree = "<group>"; };
+		2F9393AE15AB477100C062C8 /* YMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMAppDelegate.h; sourceTree = "<group>"; };
 		2F9393AF15AB477100C062C8 /* YMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMAppDelegate.m; sourceTree = "<group>"; };
-		2F9393B115AB477100C062C8 /* YMViewController.h */ = {isa = PBXFileReference; path = YMViewController.h; sourceTree = "<group>"; };
+		2F9393B115AB477100C062C8 /* YMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMViewController.h; sourceTree = "<group>"; };
 		2F9393B215AB477100C062C8 /* YMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMViewController.m; sourceTree = "<group>"; };
 		2F9393B515AB477100C062C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YMViewController.xib; sourceTree = "<group>"; };
+		2F9393BD15AB47D200C062C8 /* YMCalendarSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCalendarSheet.h; sourceTree = "<group>"; };
+		2F9393BE15AB47D200C062C8 /* YMCalendarSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCalendarSheet.m; sourceTree = "<group>"; };
+		2F9393BF15AB47D200C062C8 /* YMCalendarSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMCalendarSheet.xib; sourceTree = "<group>"; };
+		2F9393C215AB48B800C062C8 /* UIView+NibLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NibLoading.h"; sourceTree = "<group>"; };
+		2F9393C315AB48B800C062C8 /* UIView+NibLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NibLoading.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +58,7 @@
 		2F93939015AB477100C062C8 = {
 			isa = PBXGroup;
 			children = (
+				2F9393BC15AB47BE00C062C8 /* YMCalendarSheet */,
 				2F9393A515AB477100C062C8 /* YMCalendarSheetDemo */,
 				2F93939E15AB477100C062C8 /* Frameworks */,
 				2F93939C15AB477100C062C8 /* Products */,
@@ -97,6 +106,18 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		2F9393BC15AB47BE00C062C8 /* YMCalendarSheet */ = {
+			isa = PBXGroup;
+			children = (
+				2F9393BD15AB47D200C062C8 /* YMCalendarSheet.h */,
+				2F9393BE15AB47D200C062C8 /* YMCalendarSheet.m */,
+				2F9393BF15AB47D200C062C8 /* YMCalendarSheet.xib */,
+				2F9393C215AB48B800C062C8 /* UIView+NibLoading.h */,
+				2F9393C315AB48B800C062C8 /* UIView+NibLoading.m */,
+			);
+			path = YMCalendarSheet;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -151,6 +172,7 @@
 			files = (
 				2F9393AA15AB477100C062C8 /* InfoPlist.strings in Resources */,
 				2F9393B615AB477100C062C8 /* YMViewController.xib in Resources */,
+				2F9393C115AB47D200C062C8 /* YMCalendarSheet.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +186,8 @@
 				2F9393AC15AB477100C062C8 /* main.m in Sources */,
 				2F9393B015AB477100C062C8 /* YMAppDelegate.m in Sources */,
 				2F9393B315AB477100C062C8 /* YMViewController.m in Sources */,
+				2F9393C015AB47D200C062C8 /* YMCalendarSheet.m in Sources */,
+				2F9393C415AB48B800C062C8 /* UIView+NibLoading.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
